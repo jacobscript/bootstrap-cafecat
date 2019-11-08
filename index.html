@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>CafeCat</title>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,900,900i|Ubuntu:400,400i,700,700i&display=swap" rel="stylesheet">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- css style -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/fc2390730c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+    
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">cafecat</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarText">
+            
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Rules</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a> 
+              </li>
+            </ul>
+          </div>
+        </nav>
+    
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+            <h1 class="big-heading">Welcome to the CafeCat</h1>
+            <h3>We are the cat lovers center for coffee drinkers</h3>    
+            <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/neocat-unsplash2.png" width="300px" alt="cat is calling">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+        <div class="feature-box col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h3>Caturday!</h3>
+            <p>The day of the week for posting lolcats.</p>
+        </div>
+        
+        <div class="feature-box col-lg-4">
+            <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3>Stretch & Snuggle</h3>
+          <p>Join us for some relaxing, toning and catcuddling.</p>
+        </div>
+    
+        <div class="feature-box col-lg-4">
+            <i class="icon fas fa-heart fa-4x"></i>
+          <h3>Kitten party</h3>
+          <p>Help us socialize tiny mewers.</p>
+        </div>
+    </div>
+    
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2>Jump in our feline terrarium. Spend an hour playing, cuddling, feeding and taking pictures.</h2>
+                <img class="testimonial-image" src="images/neocat-unsplash3.png" alt="cat-profile">
+                <em>Feather, New York</em>
+            </div>
+            <div class="carousel-item">
+                <h2>Cats provide health and social benefits to humans, improve their happiness and quality of life.</h2>
+                <img class="testimonial-image" src="images/japheth-unsplash.jpg" alt="cat-profile">
+                <em>Simba, New Jersey</em>
+            </div>
+            <div class="carousel-item">
+                <h2>We help millions of pets find their families through adoption.</h2>
+                <img class="testimonial-image" src="images/cat-house.png" alt="cat-profile">
+                <em>Felix, Buffalo, NY</em>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+  </section>
+
+  <!-- Press -->
+
+  <section id="press">
+    
+    <img class="press-logo" src="images/iheartcat.png" alt="iheartcat-logo">
+    <img class="press-logo" src="images/kittenwar.gif" alt="kittenwar-logo">
+    <img class="press-logo" src="images/catster.png" alt="catster-logo">
+    <img class="press-logo" src="images/purrsonals.png" alt="purrsonals-logo">
+
+  </section>
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    
+
+    <h2>The Cats Rule!</h2>
+    <p> In order to provide the best experience for people and cats, we ask you observe the following rules:</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+            <div class="card-header">
+              <h3>Visiting CafeCat</h3>
+            </div>
+            <div class="card-body">
+              <p>Feel free to take photos</p>
+              <p>Sanitize your hands before entering the play area</p>
+              <p>Do not bring any of your own animals</p>
+              <p>Children under 13 must be accompanied by an adult</p>
+              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Cat Adoption</button>
+            </div>
+          </div>
+    </div>
+    
+    <div class="pricing-column col-lg-4 col-md-6">
+    <div class="card">
+        <div class="card-header">
+          <h3>Interacting with the Cats</h3>
+        </div>
+        <div class="card-body">
+          <p>Do not pull on cat’s tail</p>
+          <p>Do not disturb cats if they are eating</p>
+          <p>Do not give human food to cats</p>
+          <p>Toys for the cats are available throughout the play area</p>
+          <button class="btn btn-lg btn-block btn-dark" type="button">Pet Finder</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-column col-lg-4">
+      <div class="card">
+          <div class="card-header">
+            <h3>Special Rules for Visitors</h3>
+          </div>
+          <div class="card-body">
+            <p>Parents: Please supervise your children</p>
+            <p>Absolutely no running</p>
+            <p>Absolutely no yelling</p>
+            <p>If a cat is hiding, let it hide</p>
+            <p>If a cat is sleeping, let it sleep</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Animal Shelter</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-heading">Find the True Love of Your Cat's Life Today.</h3>
+    <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+    <button class="download-button btn btn-lg btn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="social-icon fab fa-facebook-square"></i>
+    <i class="social-icon fab fa-twitter-square"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+
+    <p>© Copyright 2019 CafeCat</p>
+
+  </footer>
+  <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
